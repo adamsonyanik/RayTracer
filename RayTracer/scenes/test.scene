@@ -1,0 +1,17 @@
+Camera -1.25 1 0 0 0 0 60 60
+DirectionalLight -0.5 -1 0.5
+
+Material green 0.1 0.8 0.1 0.2 0.2 0.2
+Material red 0.8 0.1 0.1 0 0 0
+
+Material ground 0.7 0.8 0.9 0.0 0.0 0.0
+Material m1 0.8 0.3 0.1 0.5 0.5 0.5 
+Material m2 0.0 0.8 0.0 0.0 0.0 0.0
+Material m3 1.0 0.0 0.0 0.1 0.0 0.0
+Material m4 0.1 0.3 0.8 0.1 0.1 0.1
+
+GroundPlane ground
+Sphere 0 0.8 5 1 m1
+Sphere 2 0.25 5 0.5 m2
+Sphere 2.5 0.5 8 0.75 m3
+Triangle -4 0 3 -3 3 5 -2 0 7 m4
